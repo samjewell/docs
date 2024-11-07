@@ -118,7 +118,8 @@ title: Supported SQL Commands
 | CREATE STATISTICS                |   ❌   |  ❌   |                       |
 | CREATE SUBSCRIPTION              |   ❌   |  ❌   |                       |
 | CREATE TABLE                     |   ✅   |  🟠   |                       |
-| CREATE TABLE ... PARTITION       |   ✅   |  ❌   | PARTITIONs are parsed, but ignored|
+| CREATE TABLE ... PARTITION       |   ✅   |  🟠   | PARTITIONs are parsed, but ignored |
+| CREATE TABLE ... INHERITS ...    |   ✅   |  🟠   | Multiple Table INHERITs and extra columns are not supported |
 | CREATE TABLESPACE                |   ❌   |  ❌   |                       |
 | CREATE TEXT SEARCH CONFIGURATION |   ❌   |  ❌   |                       |
 | CREATE TEXT SEARCH DICTIONARY    |   ❌   |  ❌   |                       |
